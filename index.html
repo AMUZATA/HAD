@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bukonde Secondary School, Mbale City, Uganda. Upwards Forever.">
+    <title>Bukonde Secondary School | Mbale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- NAVIGATION -->
+        <header class="site-header" id="home">
+            <a class="brand" href="#home">
+                <img src="image/download (2).jpg" alt="Bukonde Secondary School badge">
+                <span>Bukonde Secondary School</span>
+            </a>
+            <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- HERO -->
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Bukonde Secondary School</h1>
+                    <p class="motto">Upwards Forever</p>
+                    <p class="lead">
+                        A vibrant community of learning and excellence in Mbale City.
+                    </p>
+                    <a class="button" href="#contact">Contact the school</a>
+                </div>
+
+                <figure class="school-image-container">
+                    <img src="image/building-2.jpg" alt="Bukonde Secondary School building">
+                    <figcaption>The school compound, Mbale</figcaption>
+                </figure>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="section" id="about">
+                <div class="about">
+                    <div class="logo-container">
+                        <img src="image/school-compound-2.jpg" alt="Bukonde Secondary School compound and buildings">
+                    </div>
+                    <div>
+                        <h2>Welcome to the Bukonde vibrant community</h2>
+                        <p>
+                            A vibrant community of learning and excellence located in Mbale City.
+                            Under our motto, "Upwards Forever," we are dedicated to providing a
+                            quality, holistic education that inspires our students to discover
+                            their potential, excel academically, and develop into responsible
+                            global citizens.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section class="section band" id="services">
+                <h2>What we do</h2>
+                <div class="three">
+                    <div>
+                        <h3>Quality education</h3>
+                        <p>Teaching that helps every student excel academically.</p>
+                    </div>
+                    <div>
+                        <h3>Holistic development</h3>
+                        <p>Learning that grows the whole student, not only exam results.</p>
+                    </div>
+                    <div>
+                        <h3>Responsible citizens</h3>
+                        <p>Preparing students to lead and serve in Uganda and beyond.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PHOTOS -->
+            <section class="section" id="photos">
+                <h2>Our school buildings</h2>
+                <div class="photos">
+                    <figure>
+                        <img src="image/school-buiding.jpg" alt="Bukonde secondary school building and campus">
+                        <figcaption>Our campus</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/dance-and-drama.jpg" alt="Bukonde students dance and drama performance in the school hall">
+                        <figcaption>Our students</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/school-computer-lab.jpg" alt="Bukonde secondary school computer lab with students learning">
+                        <figcaption>Our computer lab</figcaption>
+                    </figure>
+                    </div>
+            </section>
+
+            <!-- PARTNERS -->
+            <section class="section band" id="partners">
+                <div class="row">
+                    <div class="column">
+                        <h2>Our partners</h2>
+                        <ul>
+                            <li>Mbale City Council</li>
+                            <li>Mbale District Local Government</li>
+                            <li>Mbale Municipal Council</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER / CONTACT -->
+        <footer id="contact">
+            <h2>Contact us</h2>
+            <div class="contact-grid">
+                <p><strong>Address</strong><br>P.O. Box 2239, Mbale</p>
+                <p><strong>Email</strong><br><a href="mailto:info@bukondess.ac.ug">info@bukondess.ac.ug</a></p>
+                <p><strong>Telephone</strong><br><a href="tel:+256729036269">+256 729 036269</a></p>
+                <p><strong>Fax</strong><br>+256 774 928433</p>
+            </div>
+            <p class="copyright">&copy; <span id="year">2026</span> Bukonde Secondary School. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script src="js/script.js"></script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+</body>
+</html>
